@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.homepage       = 'https://github.com/tolu360/react-native-google-places'
   s.source         = { :git => 'https://github.com/tolu360/react-native-google-places.git', :tag => s.version }
 
-  s.platform       = :ios, '9.0'
+  s.platform       = :ios, '10.0'
 
   s.preserve_paths = 'README.md', 'package.json', 'index.js'
   s.source_files   = 'ios/*.{h,m}'
@@ -20,5 +20,5 @@ Pod::Spec.new do |s|
 
   s.dependency 'React'
   s.dependency 'GooglePlaces', '~> 3.2.0'
-  s.dependency 'GoogleMaps', '~> 3.2.0'
+  s.dependency 'GoogleMaps', '~> 3.5.0'
 end
